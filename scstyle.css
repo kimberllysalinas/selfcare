@@ -1,0 +1,365 @@
+/* 	Kimberlly Salinas
+	Final Project 
+	May 10, 2021 */
+	
+body { color: #000000;
+		background-color: #f9f9f9; 
+		margin: auto;
+ }	
+ 
+img { float:left; 
+	max-width: 100%; 
+	height: auto;
+ }
+ 
+.addrightmargin { margin-right: 2%;
+ } 
+  
+#outerwrapper { width: 80%; 
+ 	margin: auto;
+ 	padding: 10px;
+ }
+
+h1 { text-align: left;
+	color: black; 
+	font-family: "Jazz LET", fantasy;
+	font-size: 300%;
+	text-indent: 50px;
+} 
+ 
+h1:hover { color: #b4cbd9;
+	text-decoration: none;
+ }
+
+h2 { text-align: center;
+	font-family: Optima, sans-serif;
+	color: #D9A384; 
+	font-size: 25px;
+	text-shadow: 3px 3px #ffffff;
+ }	
+ 
+h3 { color: black;
+	font-size: 35px;
+	text-align: left;
+	text-shadow: 2px 3px #b4cbd9;
+}
+.navbar { width: 100%; 
+	background-color:  #f9f9f9;
+	overflow: hidden; 
+ }
+ 
+.navbar a { float: left; 
+	color: black;
+	text-align: center; 
+	padding: 14px 16px; 
+	text-decoration: none; 
+	font-family: Optima, sans-serif;
+	font-size: 17px; 
+ }
+ 
+.navbar a:hover { background-color: #ffffff; 
+	color: #b4cbd9;
+	cursor: crosshair;
+ }
+ 
+.navbar a.active { background-color: #b4cbd9;
+ 	color: white; 
+ }
+ 
+.dropdown { float: left;
+	overflow: hidden; 
+ }
+
+.dropdown .dropbtn { font-size: 16px; 
+	border: none; 
+	outline: none; 
+	padding: 14px 16px;
+	background-color: inherit; 
+	font-family: inherit; 
+	font-size: 17px;
+	margin:0;
+ }
+	
+.dropdown-content { display: none; 
+	position: absolute; 
+	background-color: #f9f9f9; 
+	min-width: 160px; 
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1; 
+ }
+	
+.dropdown-content a { float: none; 
+	color: black; 
+	padding: 12px 16px; 
+	text-decoration: none; 
+	display: block; 
+	text-align: left;
+	font-size: 17px;
+ }
+	
+.dropdown-content a:hover { background-color: #ffffff; 
+ }
+
+.dropdown:hover .dropdown-content { display: block; 
+ }
+
+.main { color: black;
+	margin-top: 50px; 
+ 	margin-bottom: 100px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+	text-align: justify;
+}
+ 
+ul.reasons { list-style-type: none;
+	margin: 0; 
+	margin-right: 50px;
+	margin-left: 50px;
+	background-color: white; 
+	padding: 15px; 
+	border-radius: 2em;
+ }
+
+.foundation { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 20px solid #f9f9f9;
+	float: none;	
+} 
+
+ 
+footer { color: white;
+	background-color: #D9A384;
+	width: 100%; 
+ }
+ 
+.column { 
+	width: 80%;
+	padding: 10px;
+	background-color: #d9a384;
+	color: white;
+	text-align: right;
+	margin: auto;
+ } 
+ 
+.column a { color: white;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+	
+ }
+ 
+* { box-sizing: border-box; 
+ }
+ 
+input[type=text], select, textarea { width: 100%;
+	padding: 12px;
+	border: 1px solid #ccc;
+	margin-top: 6px; 
+	margin-bottom:16px;
+	resize: vertical; 
+	} 
+ 
+input[type=submit] { background-color: #6892ab;
+	color: white; 
+	padding: 12px 20px; 
+	border: none; 
+	cursor: crosshair;
+ }
+ 
+input[type=submit]:hover { background-color: #b4cbd9; 
+ }
+ 
+.container { border-radius: 5px; 
+	background-color: #f9f9f9;
+	
+ } 
+ 
+ .container a:link { color: #D9A384;
+	 background-color: transparent;
+ 	text-decoration: none; 
+ }
+ 
+.container a:visited { color: #6892ab;
+	background-color: transparent; 
+	text-decoration: none;
+  } 
+ 
+.down { float: left; 
+	width: 50%; 
+	margin-top: 6px; 
+	padding: 20px;
+ }
+ 
+.across:after { content: ""; 
+	display: table; 
+	clear: both;
+ }
+ 
+.left {   
+  float: left;
+  width: 100%;
+}
+
+.right {
+  float: left;
+  width: 100%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+.images{
+  background-color: #ffffff;
+  width: 100%;
+  padding: 20px;
+}
+
+.images:hover { opacity: 0.9; }
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  max-width: 100%; 
+  text-align: justify;
+}
+
+.maincontent:after {
+  content: "";
+  display: table;
+  
+  clear: both;
+}
+ 
+ @media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+ 
+ p2 { text-align: justify;
+  
+ }
+ 
+ .addrightmargin { margin-right: 2%;
+ }
+ 
+.card a:link { color: #b4cbd9;
+	 background-color: transparent;
+ 	text-decoration: none; 
+ }
+ 
+.card a:visited { color: #6892ab;
+	background-color: transparent; 
+	text-decoration: none;
+  } 
+  
+dl.definition { font-style: oblique; 
+}
+
+ #customers {
+  font-family: Optima, sans-serif;
+  width: 100%;
+  margin: auto;
+}
+
+#customers td, #customers th {
+  border: 1px dotted #b4cbd9;
+  padding: 6px;
+}
+
+#customers tr:nth-child(even){background-color: #D9A384;}
+#customers tr:hover {background-color: #f9d3a5;}
+
+#customers th {
+  padding-top: 20px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #bf6b63;
+  color: white;
+}
+  
+  
+.bolden { 
+  font-weight: bold; 
+}
+
+.titles { 
+	text-align: center; }
+	
+.listing { background-color: white;
+  padding: 25px;
+  border-radius: 35px;
+  border: 2px solid #b4cbd9}
+  
+.listingmiddle { padding: 25px;
+  border-radius: 35px;
+  border: 2px solid #f9f9f9 }
+
+.maincontentt { background-color: white; 
+ 
+  border-radius: 20px; 
+  border: 2px solid #b4cbd9;
+  padding: 20px; 
+}
+
+.facemaskpic { padding: 20px; }
+
+
+div.polaroid {  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 20px solid #f9f9f9;
+	float: none;	
+  
+  }
+
+div.polaroidd {  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 60px solid #f9f9f9;
+	float: none;	
+	padding: 60px; 
+  
+  }
+  
+div.containersss {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: blue;
+}  
+
+.facemaskpic { float: right;}
+
+.cntr { position: relative; 
+ }
+ 
+.ctr { position: absolute; 
+  top: 55%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  font-size: 25px;
+  font-style: italic;
+ 
+  }
+  
+.sunrise { width: 100%; 
+  height: auto; 
+  opacity: 0.3; 
+  }
+  
+.quote { font-style: italic;}
+
+.lady { float: right; 
+ }
+
+
+.columnnn {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+.rowww:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.title { text-align: center;}
+
